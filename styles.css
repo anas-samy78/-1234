@@ -1,0 +1,83 @@
+/* أساسيات التصميم */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #333;
+}
+
+.app-container {
+    background-color: #ffffff;
+    padding: 30px; /* تقليل الحواف الداخلية */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px; /* تصغير العرض */
+    width: 90%;
+    transition: transform 0.3s ease;
+}
+
+.app-container:hover {
+    transform: scale(1.03);
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2.2em; /* تكبير النص */
+}
+
+label {
+    color: #34495e;
+    font-size: 1.3em; /* تكبير النص */
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 12px; /* تقليل المسافة الداخلية */
+    font-size: 1.4em; /* تكبير النص */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* تقليل المسافة الداخلية */
+    background: linear-gradient(to right, #3498db, #2980b9);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5em; /* تكبير النص */
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.result {
+    margin-top: 25px; /* تقليل المسافة العلوية */
+    color: #2c3e50;
+    font-size: 1.8em; /* تكبير النص */
+    font-weight: bold;
+    background: #ecf0f1;
+    padding: 15px; /* تقليل الحواف الداخلية */
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.language-selection {
+    margin-bottom: 15px; /* تقليل المسافة السفلية */
+    font-size: 1.2em; /* تكبير النص */
+}
